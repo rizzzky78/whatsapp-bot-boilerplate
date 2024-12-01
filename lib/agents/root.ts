@@ -101,7 +101,7 @@ export class AgentsWorkflow {
     await this.waSocket.sendMessage(
       this.waMessage.key.remoteJid as string,
       {
-        text: responseText,
+        text: responseText.trim(),
       },
       { quoted: this.isQuoted ? this.waMessage : undefined }
     );

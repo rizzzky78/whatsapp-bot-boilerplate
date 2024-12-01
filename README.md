@@ -58,6 +58,7 @@ src/
 
    ```env
     SESSION_NAME="YOUR-SESSION-NAME"
+    ENABLE_AGENTS=ENABLE # choose between "ENABLE" or "DISABLE"
 
     # Upstash Redis URL and Token retrieved here: https://console.upstash.com/redis
     UPSTASH_REDIS_REST_URL="REDIS_URL"

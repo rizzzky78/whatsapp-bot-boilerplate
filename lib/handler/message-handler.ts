@@ -13,6 +13,8 @@ import { Serialize } from "@/lib/handler/serializer/root";
 import { getCommandModule } from "@/lib/utils/command-register/module";
 import { debuggerTool } from "../debug";
 
+const ENABLE_AGENTS: boolean = process.env.ENABLE_AGENTS === "ENABLE";
+
 interface Message {
   messages: WAMessage[];
   type: MessageUpsertType;
@@ -54,10 +56,6 @@ export async function messageHandler(
 
   const commandObject = getCommandModule(commands, commandPrefix.trim());
 
-  logger.info(
-    `received cmd: [${commandPrefix.trim()}] ${origin} message from ${senderName} with phone_id: ${senderNumber}`
-  );
-
   /**
    * Auto Read Messages
    */
@@ -70,6 +68,9 @@ export async function messageHandler(
   });
 
   if (commandObject) {
+    logger.info(
+      `received cmd: [${commandPrefix.trim()}] ${origin} message from ${senderName} with phone_id: ${senderNumber}`
+    );
     try {
       return await commandObject.callback({
         message,
@@ -87,11 +88,13 @@ export async function messageHandler(
       });
     }
   } else {
-    // const agentsWorkflow = new AgentsWorkflow({
-    //   waSocket: client,
-    //   waMessage: messages,
-    //   isQuoted: isGroup,
-    // });
-    // await agentsWorkflow.main();
+    if (ENABLE_AGENTS) {
+      const agentsWorkflow = new AgentsWorkflow({
+        waSocket: client,
+        waMessage: messages,
+        isQuoted: isGroup,
+      });
+      await agentsWorkflow.main();
+    }
   }
 }
