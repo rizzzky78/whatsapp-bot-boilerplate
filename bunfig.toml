@@ -1,0 +1,8 @@
+[compiler]
+alias = {
+  "@/auth" = "./auth",
+  "@/commands" = "./commands",
+  "@/lib" = "./lib",
+  "@/logs" = "./logs",
+  "@/media" = "./media"
+}

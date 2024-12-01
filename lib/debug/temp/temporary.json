@@ -1,0 +1,47 @@
+[
+  {
+    "key": {
+      "remoteJid": "6281329585825@s.whatsapp.net",
+      "fromMe": false,
+      "id": "E843470554ADE3E61CB30564FBA9BB59"
+    },
+    "messageTimestamp": 1733061250,
+    "pushName": "Rizky.",
+    "broadcast": false,
+    "message": {
+      "imageMessage": {
+        "url": "https://mmg.whatsapp.net/v/t62.7118-24/30984886_589915240063081_6285230460250371146_n.enc?ccb=11-4&oh=01_Q5AaIEv4WPNi4vrmONfmOo6lCo_1zPpDNl_21dOraMI9b2-W&oe=6773E8D0&_nc_sid=5e03e0&mms3=true",
+        "mimetype": "image/jpeg",
+        "caption": "sticker circle",
+        "fileSha256": "eKPIN28W49Bvx3sfc+3tSKHjcgXjHovJdSvHSq9AB5c=",
+        "fileLength": "18983",
+        "height": 386,
+        "width": 686,
+        "mediaKey": "ef2D9tEFmhcxsF5EcBIQYbMKt/uET75iRuXr+kJua38=",
+        "fileEncSha256": "iJmyBooJAyC+MlT2sJ/jGJZGOh7yeKzMKExCT8o7DM0=",
+        "directPath": "/v/t62.7118-24/30984886_589915240063081_6285230460250371146_n.enc?ccb=11-4&oh=01_Q5AaIEv4WPNi4vrmONfmOo6lCo_1zPpDNl_21dOraMI9b2-W&oe=6773E8D0&_nc_sid=5e03e0",
+        "mediaKeyTimestamp": "1732886950",
+        "jpegThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIACkASAMBIgACEQEDEQH/xAAwAAACAwEBAAAAAAAAAAAAAAAEBQABAwIGAQEBAQEBAAAAAAAAAAAAAAABAwACBP/aAAwDAQACEAMQAAAAXvkT/O175jtzeSRU0W9CeaQ2J6Ul3qtxN/PeCkq9sAiOKTHnE7mFdRzVv5NrKz/zrrzI9GKiqR7lxP/EACQQAAICAgEEAgMBAAAAAAAAAAECAAMEERITITFBEDMgIjKB/9oACAEBAAE/AMWkWWbMSoQ1cV3EKFgD7nSENQjUiZQdW0PEurAMoJRgTKn58CIGDhlgVQTpdmO/T0Y9+gHX/RGyAUDL59iX3Jb3A0ZdppZZ6EwLztom2HMeYDuWLsdzLF4pyBlt/T7x7m3uciw3LH2e0w7eFmj7mPYCvGKTsgwqX96EyyKvLnQiFLyG12EyEABIEB4KB8A6mNmeAxleWPZj2nX6+Jn3ciBK8k1poQ2h0Bj/AIVfUJT9Myvuf4o/kyzxP//EABsRAAIDAQEBAAAAAAAAAAAAAAEQAAIRITJB/9oACAECAQE/AJ9QCPgrTBYjjuMlR2Yv/8QAHBEAAgICAwAAAAAAAAAAAAAAAAECERAhICIx/9oACAEDAQE/AErPFwi+yGjRKN7WYSbJ6Rbx/9k=",
+        "contextInfo": {
+          "expiration": 0,
+          "ephemeralSettingTimestamp": "1717057959",
+          "disappearingMode": {
+            "initiator": "CHANGED_IN_CHAT",
+            "trigger": "UNKNOWN",
+            "initiatedByMe": false
+          }
+        }
+      },
+      "messageContextInfo": {
+        "deviceListMetadata": {
+          "senderKeyHash": "wiut5StS3cKzrQ==",
+          "senderTimestamp": "1732894588",
+          "recipientKeyHash": "nNafajYCgwBJaQ==",
+          "recipientTimestamp": "1733033531"
+        },
+        "deviceListMetadataVersion": 2,
+        "messageSecret": "o6lAc5QOwnzTekDgm07Y49JI6zQav1EE6VeqbR+tLh4="
+      }
+    }
+  }
+]
